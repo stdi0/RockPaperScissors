@@ -1,16 +1,34 @@
 # RockPaperScissors
 etherium, RockPaperScissors
 
+# Смарт-контракт (тестнет Rinkeby):
 https://rinkeby.etherscan.io/address/0xf35b4e6cdd4007307944cf40a8579ebb61a889b8#readContract
 
 
-# How to play?
-Player1:<br/>
-1.Register bet<br/>
-2.Choose one of the three (rock, paper or scissors)<br/>
+# Как играть?
+Перейти на вкладку WriteContract (https://rinkeby.etherscan.io/address/0xf35b4e6cdd4007307944cf40a8579ebb61a889b8#writeContract)
+
+Игрок 1:<br/>
+1.Зарегистрируйте сумму ставки в поле register, указывайте большой размера газа<br/>
+2.Укажите свой выбор в поле choice  из следующих трех: rock, paper, scissors<br/>
   
-Player2:<br/>
-1.Register bet<br/> 
-2.Choose one of the three (rock, paper or scissors)<br/> 
+Игрок 2:<br/>
+1.Зарегистрируйте сумму ставки в поле register, указывайте большой размера газа<br/> 
+2.Укажите свой выбор в поле choice из следующих трех: rock, paper, scissors<br/>
   
 Enjoy!
+
+# Текущие проблемы:
+Игрок видит выбор другого игрока в любой момент времени в блокчейне.
+Варианты решения: шифрование
+
+# Общее впечатление:
+Имел дело с Etehreum довольно давно, в последнее время работал исключительно с EOS.io
+Проблемой для тестирования оказалось то, что в Ethereum тестнете Rinkeby очень медленно подтверждаются транзакции, приходится выставлять большие суммы газа.
+
+
+
+
+
+
+  
