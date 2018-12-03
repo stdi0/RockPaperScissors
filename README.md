@@ -4,6 +4,8 @@ etherium, RockPaperScissors
 # Смарт-контракт (тестнет Rinkeby):
 https://rinkeby.etherscan.io/address/0xf35b4e6cdd4007307944cf40a8579ebb61a889b8#readContract
 
+UPD: В rinkeby очень долгие транзакции, выложил в ropsten:
+https://ropsten.etherscan.io/address/0x0fcfd407b1856caa19e4de9c809aff30c1766449
 
 # Как играть?
 Перейти на вкладку WriteContract (https://rinkeby.etherscan.io/address/0xf35b4e6cdd4007307944cf40a8579ebb61a889b8#writeContract)
